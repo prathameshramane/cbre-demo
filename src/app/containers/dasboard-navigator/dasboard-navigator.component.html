@@ -1,0 +1,18 @@
+<div class="navigator-main">
+    <div class="row">
+        <div class="col-6 text-center" [class.active]="isAssessmentActive" (click)="navigate(assessmentRoute)">
+            <div>
+                <span>
+                    <fa-icon [icon]="assessmentIcon" [size]="'xl'"></fa-icon>
+                </span>
+                <p>ASSESSMENT</p>
+            </div>
+        </div>
+        <div class="col-6 text-center" [class.active]="!isAssessmentActive" (click)="navigate(profileRoute)">
+            <span>
+                <fa-icon [icon]="profileIcon" [size]="'xl'"></fa-icon>
+            </span>
+            <p>PROFILE</p>
+        </div>
+    </div>
+</div>
