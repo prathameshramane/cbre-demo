@@ -19,7 +19,8 @@ import {
 import {
   RiskControlCardComponent,
   DasboardNavigatorComponent
-} from './containers'
+} from './containers';
+import { RiskControlComponent } from './pages/risk-control/risk-control.component'
 
 @NgModule({
   declarations: [
@@ -29,7 +30,8 @@ import {
     AssessmentComponent,
     ProfileComponent,
     RiskControlCardComponent,
-    DasboardNavigatorComponent
+    DasboardNavigatorComponent,
+    RiskControlComponent
   ],
   imports: [
     BrowserModule,

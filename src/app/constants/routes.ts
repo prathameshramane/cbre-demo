@@ -4,6 +4,7 @@ const ROUTES = {
     DASHBOARD: 'dashboard',
     ASSESSMENT: 'dashboard/assessment',
     PROFILE: 'dashboard/profile',
+    RISK_CONTROL: 'dashboard/risk-control',
 }
 
 export default ROUTES;
